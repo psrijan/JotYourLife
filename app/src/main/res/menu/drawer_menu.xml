@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/drawer_add"
+            android:icon="@drawable/img_add"
+            android:title="Add" />
+        <item
+            android:id="@+id/drawer_journey"
+            android:icon="@drawable/img_journey"
+            android:title="Journey"
+            >
+        </item>
+        <item
+            android:title="Atlas"
+            android:icon="@drawable/img_atlas"
+            android:id="@+id/drawer_atlas"
+            />
+        <item
+            android:icon="@drawable/img_inspiration"
+            android:title="Inspiration"
+            android:id="@+id/drawer_inspiration">
+        </item>
+        <item android:icon="@drawable/img_photos"
+            android:title="Pictures"
+            android:id="@+id/drawer_pictures" >
+
+        </item>
+
+        <item
+            android:title="Sub Item">
+
+            <menu>
+
+                <item
+                    android:icon="@mipmap/ic_one"
+                    android:id="@+id/drawer_help"
+                    android:title="Help" />
+
+                <item
+                    android:icon="@mipmap/ic_two"
+                    android:id="@+id/drawer_feedback"
+                    android:title="Feedback" />
+                <item
+                    android:icon="@mipmap/ic_two"
+                    android:id="@+id/drawer_setting"
+                    android:title="Setting" />
+            </menu>
+        </item>
+    </group>
+</menu>

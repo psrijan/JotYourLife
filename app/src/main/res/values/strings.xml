@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Jot Your Life</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_settings">Setting</string>
+    <string name="drawer_open"> Drawer Open</string>
+    <string name="drawer_close"> Drawer Close</string>
+    <string name="logo_desc"> JYL</string>
+
+
+    <string name="PREFERENCE_KEY_FILE"> com.mycompany.jotyoutlife.preferencekeyfile</string>
+    <string name="current_user_id"> com.mycompany.jotyoutlife.preferencekeyfile.userid</string>
+    <string name="current_user_name"> com.mycompany.jotyoutlife.preferencekeyfile.username</string>
+    <string name="current_user_id_default">-1</string>
+
+    <string name="action_save"> Save </string>
+
+    <string-array name="dwr_section_arr">
+        <item id="arr_i1">Journey</item>
+        <item id="arr_i2">Calendar</item>
+        <item id="arr_i3">Photos and Videos</item>
+        <item id="arr_i4">Atlas</item>
+        <item id="arr_i5">Inspiration</item>
+    </string-array>
+    <string name="title_activity_qwerty">Qwerty</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

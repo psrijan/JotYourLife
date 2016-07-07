@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/view_frag"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="500px"
+        android:padding="10px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/img_disp_fullsize" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/img_disp_fullsize"
+        android:id="@+id/linearlayout_1"
+        android:padding="10px"
+        android:background="#c5cae9"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_disp_time"
+            android:textSize="20dp"
+            android:text="TEST"
+            android:textColor="#093145"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10px"
+        android:orientation="vertical"
+        android:layout_below="@id/linearlayout_1"
+        android:layout_alignParentBottom="true"
+        android:background="#bbdefb"
+        android:elevation="10px"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:minLines="5"
+            android:singleLine="false"
+            android:textColor="#093145"
+            android:id="@+id/txt_disp_journal"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

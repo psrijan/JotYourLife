@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/Scroller">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ImageSection">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgSavedPic"
+                android:background="#000000"
+                android:maxHeight="300dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/DateTimeSection"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/txtDayOfMonth"
+                android:text="27"
+                android:textColor="#26c6da"
+                android:textStyle="bold"
+                android:textSize="27sp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="March 27, 2016"
+                    android:id="@+id/txtDate"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textColor="#26c6da" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Sunday 11:27 AM"
+                    android:id="@+id/txtDayTime"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textColor="#26c6da" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ContentHolder"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/txtHeading"
+                android:maxWidth="100dp"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Heading" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Hello this is my new Note"
+                android:id="@+id/txtContent"
+                android:maxWidth="100dp"
+                android:minLines="4" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
