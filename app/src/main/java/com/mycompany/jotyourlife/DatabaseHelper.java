@@ -255,4 +255,8 @@
             return timeFormat.format(myDate);
         }
 
+        public void doesNothing() {}
+
+
+
     }
